@@ -33,6 +33,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     headless: false,
     screenshot:'only-on-failure',
+    testIdAttribute:'data-tab-item',
   },
 
   /* Configure projects for major browsers */
